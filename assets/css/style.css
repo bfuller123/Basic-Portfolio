@@ -1,19 +1,23 @@
 .page_wrapper {
   font-family: 'Georgia';
   margin: 2% 5%;
-  position: relative;
+  padding: 0px 25px 45px 15px;
 }
 
-.header {
+header {
   background-color: black;
   width: 100%;
   color: white;
+  padding: 0px 0px 0px 1%;
 }
 
 .main_content {
   background-color: gray;
-  position: absolute;
-  left: 10%;
+  margin-left: 3%;
+  float: left;
+  padding: 0px 1%;
+  width: 60%;
+  margin-bottom: 5%;
 }
 
 #brett_photo {
@@ -22,8 +26,8 @@
 }
 
 .contacts {
-  position: absolute;
-  right: 10%;
+  float: right;
+  width: 30%;
 }
 
 img {
@@ -31,7 +35,7 @@ img {
   width: 75px;
 }
 
-.footer {
-  position: absolute;
-  bottom: -200%;
+footer {
+  clear: both;
+  text-align: center;
 }
