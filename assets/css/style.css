@@ -4,6 +4,10 @@
   padding: 0px 25px 45px 15px;
 }
 
+
+/************************************/
+/************Header******************/
+/************************************/
 header {
   width: 100%;
 }
@@ -30,6 +34,9 @@ h4 {
   padding: 0px 5%;
 }
 
+/************************************/
+/************Biography***************/
+/************************************/
 .main_content {
   background-color: gray;
   margin-left: 5%;
@@ -49,6 +56,7 @@ h4 {
   display: inline;
 }
 
+/**************Contacts************/
 .contacts {
   background-color: gray;
   flex-direction: column;
@@ -67,14 +75,17 @@ h4 {
 .contacts_content {
   display: flex;
   justify-content: space-around;
-  margin: 5%;
+  margin: 5% 5% 5% 12%;
 }
 
 img {
-  height: 75px;
-  width: 75px;
+  height: 95%;
+  width: 65%;
 }
 
+/************************************/
+/************Footer******************/
+/************************************/
 footer {
   clear: both;
   text-align: center;
