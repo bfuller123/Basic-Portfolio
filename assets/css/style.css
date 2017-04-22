@@ -78,4 +78,6 @@ img {
 footer {
   clear: both;
   text-align: center;
+  border-top: 5px solid black;
+  padding-top: 10px;
 }
