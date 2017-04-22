@@ -111,7 +111,7 @@ footer {
   clear: both;
   text-align: center;
   border-top: 5px solid black;
-  padding-top: 10px;
+  padding: 0.5% 0;
   background-color: gray;
   color: white;
 }
