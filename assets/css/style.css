@@ -5,29 +5,69 @@
 }
 
 header {
-  background-color: black;
   width: 100%;
+}
+
+.name {
   color: white;
-  padding: 0px 0px 0px 1%;
+  width: 15%;
+  padding: 7px 0px;
+  background-color: black;
+  float: left;
+  margin: -2% 20% 0 5%;
+  text-align: center;
+}
+
+.page_listings {
+  width: 27%;
+  float: right;
+  margin-top: 0%;
+}
+
+h4 {
+  display: inline;
+  border-right: 1px gray solid;
+  padding: 0px 5%;
 }
 
 .main_content {
   background-color: gray;
-  margin-left: 3%;
+  margin-left: 5%;
   float: left;
   padding: 0px 1%;
-  width: 60%;
+  width: 55%;
   margin-bottom: 5%;
 }
 
 #brett_photo {
   height: 200px;
   width: 200px;
+  float: left;
+}
+
+#brett_bio {
+  display: inline;
 }
 
 .contacts {
+  background-color: gray;
+  flex-direction: column;
   float: right;
   width: 30%;
+}
+
+.contacts_title {
+  text-align: center;
+}
+
+.contacts_title > hr {
+  width: 70%;
+}
+
+.contacts_content {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
 }
 
 img {
