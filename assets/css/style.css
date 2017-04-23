@@ -46,6 +46,7 @@ li {
   height: 3px;
   background-color: black;
   border: none;
+  margin-bottom: 2%;
 }
 
 
@@ -54,10 +55,10 @@ li {
 /************************************/
 .main_content {
   background-color: gray;
-  margin: 5% 0 5% 5%;
+  margin: 5% 0 6.2% 5%;
   float: left;
-  padding: 0px 1%;
-  width: 45%;
+  padding: 0 2% 2% 2%;
+  width: 40%;
   font-family: Helvetica, Arial, Sans-Serif;
 }
 
