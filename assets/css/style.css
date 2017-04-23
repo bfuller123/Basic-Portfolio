@@ -28,17 +28,19 @@
   margin-top: 0%;
 }
 
-h4 {
+li {
   display: inline;
   border-right: 1px gray solid;
-  padding: 0px 5%;
+  padding: 0 5%;
+  decoration: none;
 }
 
 #header_hr {
-  width: 100%;
+  width: 150%;
   height: 3px;
   background-color: black;
   border: none;
+  margin-left: -10%;
 }
 
 
@@ -114,4 +116,6 @@ footer {
   padding: 0.5% 0;
   background-color: gray;
   color: white;
+  width: 120%;
+  margin: 0 -8%;
 }
