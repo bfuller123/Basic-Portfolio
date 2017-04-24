@@ -11,9 +11,20 @@
   padding: 0;
 }
 
+#background_image {
+  background-image: url('../images/background.jpg');
+  background-size: 1700px 1300px;
+}
+
 /*********************************/
 /************Header***************/
 /*********************************/
+.header_wrap {
+  background-color: white;
+  height: 68px;
+  width: 100%;
+}
+
 .header {
   width: 100%;
 }
@@ -24,14 +35,14 @@
   padding: 20px 0px;
   background-color: #4aaaa5;
   float: left;
-  margin: 0% 20% 0 5%;
+  margin: 0% 20% 0 9%;
   text-align: center;
 }
 
 .page_listings {
   width: 27%;
   float: right;
-  margin-top: 1.5%;
+  margin: 1.5% 3% 0 0;
 }
 
 li {
@@ -39,30 +50,43 @@ li {
   border-right: 1px gray solid;
   padding: 0 5%;
   decoration: none;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.page_listings > a {
+  text-decoration: none;
+  color: gray;
 }
 
 #header_hr {
   width: 100%;
   height: 3px;
-  background-color: black;
+  background-color: gray;
   border: none;
   margin-bottom: 2%;
 }
 
 
 /************************************/
-/************Biography***************/
+/************Main Content***************/
 /************************************/
+
+.main_content_wrapper {
+  background-color: black;
+  height: 50px;
+}
+
 .main_content {
-  background-color: gray;
-  margin: 5% 0 6.2% 5%;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin: 5% 0 6.2% 9%;
   float: left;
   padding: 0 2% 2% 2%;
   width: 40%;
   font-family: Helvetica, Arial, Sans-Serif;
 }
 
-#about_me {
+#about_me, #contact_me {
   color: #4aaaa5;
   font-family: Georgia, Serif;
   margin: 3%;
@@ -86,16 +110,49 @@ li {
   border: none;
 }
 
+.form_title, input, #message_field {
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: gray;
+  margin: 0 3%;
+}
+
+input, #message_field {
+  margin: 1% 0 4% 3%;
+  width: 82%;
+  padding: 1%;
+}
+
+
+#submit_button {
+  padding: 2% 4%;
+  color: white;
+  font-family: Helvetica, Arial, Sans-Serif;
+  background-color: #4aaaa5;
+  border: none;
+  decoration: none;
+  margin-left: 3%;
+  font-weight: 700;
+}
+
+#submit_button:hover{
+  color:#4aaaa5;
+  border: 2px solid #4aaaa5;
+  background-color: white;
+  padding: 1.7% 3.7%;
+  decoration: none;
+}
+
 /*********************************/
 /**************Contacts***********/
 /*********************************/
 
 .contacts {
-  background-color: gray;
+  background-color: white;
+  border: 1px solid lightgray;
   flex-direction: column;
   float: right;
   width: 30%;
-  margin: 5% 5% 0% 0%;
+  margin: 5% 6% 0% 0%;
 }
 
 .contacts_title {
