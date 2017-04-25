@@ -28,14 +28,16 @@
       <div id='content'>
 
         <section class='main_content'>
-          <h2 id='contact_me'>Contact</h2>
-          <h4 class='form_title'>Name</h4>
-          <input type="text" name="contact_name" value="John Smith" id='name_field'>
-          <h4 class='form_title'>Email</h4>
-          <input type="text" name="contact_email" value="example@gmail.com" id='email_field'>
-          <h4 class='form_title'>Message</h4>
-          <textarea rows="8" cols='67' name="contact_message" value="" id='message_field'></textarea>
-          <button type="button" name="contact_submit" id='submit_button'>Submit</button>
+          <form action="index.html" method="post">
+            <h2 id='contact_me'>Contact</h2>
+            <h4 class='form_title'>Name</h4>
+            <input type="text" name="contact_name" value="John Smith" id='name_field'>
+            <h4 class='form_title'>Email</h4>
+            <input type="text" name="contact_email" value="example@gmail.com" id='email_field'>
+            <h4 class='form_title'>Message</h4>
+            <textarea name="contact_message" value="" id='message_field'></textarea>
+            <input type="submit" name="contact_submit" id='submit_button'>
+          </form>
         </section>
 
 

@@ -48,7 +48,7 @@ body {
 .page_listings {
   width: 27%;
   float: right;
-  margin: 1.5% 7% 0 0;
+  margin: 1.5% 10% 0 0;
 }
 
 li {
@@ -84,7 +84,7 @@ li {
 .main_content {
   background-color: white;
   border: 1px solid lightgray;
-  margin: 5% 0 6.2% 13%;
+  margin: 2% 0 6.2% 13%;
   float: left;
   padding: 0 2% 2% 2%;
   width: 650px;
@@ -137,14 +137,19 @@ input, #message_field {
   decoration: none;
   margin-left: 3%;
   font-weight: 700;
+  width: 20%;
 }
 
 #submit_button:hover{
   color:#4aaaa5;
   border: 2px solid #4aaaa5;
   background-color: white;
-  padding: 1.7% 3.7%;
+  padding: 1.75% 3.75%;
   decoration: none;
+}
+
+#message_field {
+  height: 100px;
 }
 
 /*********************************/
@@ -157,7 +162,7 @@ input, #message_field {
   flex-direction: column;
   float: right;
   width: 270px;
-  margin: 5% 16% 0% 0%;
+  margin: 2% 19% 0% 0%;
 }
 
 .contacts_title {
@@ -185,6 +190,7 @@ img {
   clear: both;
   text-align: center;
   border-top: 8px solid #4aaaa5;
+  margin-top:3%;
   padding: 46px 0;
   background-color: gray;
   color: white;
