@@ -12,10 +12,6 @@ body {
   -webkit-flex-direction: column;
 }
 
-#content {
-  flex:1;
-}
-
 #background_image {
   background-image: url('../images/background-3.png');
 }
@@ -147,8 +143,10 @@ input, #message_field {
 }
 
 .project_images {
-  width: 550px;
+  width: 700px;
   margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio_img {
@@ -160,7 +158,7 @@ input, #message_field {
 .portfolio_link {
   background-color: rgba(74,170,165, 0.5);
   color: #ffffff;
-  position: fixed;
+  position: absolute;
   margin: -4% 0 0 0.34%;
   z-index: 1;
   width: 16.45%;
