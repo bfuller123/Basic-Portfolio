@@ -147,6 +147,7 @@ input, #message_field {
   margin-left: 10%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .portfolio_img {
