@@ -166,7 +166,7 @@ input, #message_field {
   position: absolute;
   margin: -4% 0 0 0.15%;
   z-index: 1;
-  width: 16.45%;
+  width: 250px;
   text-align: center;
   padding: 5px 0;
 }
