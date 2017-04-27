@@ -80,13 +80,18 @@ li {
 /************Main Content***************/
 /************************************/
 
+#content {
+  width: 960px;
+  margin: 2% 0 6.2% 13%;
+}
+
 .main_content {
   background-color: #ffffff;
   border: 1px solid #dddddd;
-  margin: 2% 0 6.2% 13%;
+  /*margin: 2% 0 6.2% 13%;*/
   float: left;
-  padding: 0 2% 2% 2%;
-  width: 650px;
+  padding: 0 20px 10px 20px;
+  width: 610px;
 }
 
 #about_me, #contact_me, #portfolio_title {
@@ -176,7 +181,7 @@ input, #message_field {
   flex-direction: column;
   float: right;
   width: 270px;
-  margin: 2% 19% 0% 0%;
+  /*margin: 2% 19% 0% 0%;*/
 }
 
 .contacts_title {
